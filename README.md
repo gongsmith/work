@@ -16,12 +16,7 @@ perfomant M-JPEG streams even from an embedded device running OpenWRT. The
 input module "input_uvc.so" captures such JPG frames from a connected webcam.
 mjpg-streamer now supports a variety of different input devices.
 
-Security warning
-----------------
 
-**WARNING**: mjpg-streamer should not be used on untrusted networks!
-By default, anyone with access to the network that mjpg-streamer is running
-on will be able to access it.
 
 Plugins
 -------
