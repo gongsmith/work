@@ -99,25 +99,3 @@ See [README.md](mjpg-streamer-experimental/README.md) or the individual plugin's
 
 Discussion / Questions / Help
 =============================
-
-Probably best in this thread
-http://www.raspberrypi.org/phpBB3/viewtopic.php?f=43&t=45178
-
-Authors
-=======
-
-mjpg-streamer was originally created by Tom Stöveken, and has received
-improvements from many collaborators since then.
-
-
-License
-=======
-
-mjpg-streamer is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; version 2 of the License.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
-GNU General Public License for more details.
