@@ -79,3 +79,12 @@ shows the basic steps to enable the experimental HTTP management feature:
     cmake -DENABLE_HTTP_MANAGEMENT=ON ..
     make
     sudo make install
+
+Usage
+=====
+From the mjpeg streamer experimental
+folder:
+```
+export LD_LIBRARY_PATH=.
+./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+```
