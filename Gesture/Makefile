@@ -1,5 +1,0 @@
-PAJ7620U2:PAJ7620U2.cpp PAJ7620U2.h
-	g++ -Wall PAJ7620U2.cpp -o PAJ7620U2 -lwiringPi -lm
-clean:
-	rm PAJ7620U2
-
