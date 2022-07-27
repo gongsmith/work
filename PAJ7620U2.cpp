@@ -46,12 +46,12 @@ unsigned char PAJ7620U2_init()
 void pwm_init()
 {
 	
-	pinMode(LR_PIN, PWM_OUTPUT);    // 设置PWM输出
-    pwmSetMode(PWM_MODE_MS);        // 设置传统模式
-    pwmSetClock(192);                // 设置分频
-    pwmSetRange(2000);                // 设置周期分为2000步
-	pinMode(UD_PIN, PWM_OUTPUT);    // 设置PWM输出
-    pwmSetMode(PWM_MODE_MS);        // 设置传统模式
+	pinMode(LR_PIN, PWM_OUTPUT);    
+    pwmSetMode(PWM_MODE_MS);        
+    pwmSetClock(192);                /
+    pwmSetRange(2000);                //
+	pinMode(UD_PIN, PWM_OUTPUT);    // 
+    pwmSetMode(PWM_MODE_MS);        // 
     pwmSetClock(192);                // 设置分频
     pwmSetRange(2000);                // 设置周期分为2000步
     
